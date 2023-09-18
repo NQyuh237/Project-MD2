@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.App {
+  height: 100vh;
+  background-image: url(https://www.tiendauroi.com/wp-content/uploads/2020/02/cgv.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.table {
+  margin-top: 50px;
+}
+.table tr {
+  font-size: smaller;
+}
+.manegForm {
+  border-radius: 15px;
+  border: 1px solid rgb(163, 160, 160);
+  box-shadow: 3px 5px #888888;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.maneForm input {
+  margin-left: start;
+}
+td img {
+  width: 10rem;
+}
+input {
+  width: 90%;
+  height: fit-content;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.formLogin {
+  width: 50%;
+  background-color: rgb(244, 239, 239);
+  border-radius: 15px;
+  margin: auto;
+}
+.input {
+  width: 80% !important;
+  margin: auto;
+}
+.inputEdit:focus {
+  width: max-content !important;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.onSide {
+  position: fixed;
+  left: 10px;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

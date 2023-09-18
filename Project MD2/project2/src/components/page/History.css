@@ -1,0 +1,65 @@
+.total {
+  border: 1px solid gray;
+  text-align: center;
+  background: rgb(250, 231, 207);
+}
+.brandlogo i:hover {
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.invoice .movie-info {
+  display: flex;
+  margin-left: 30px;
+  gap: 10px;
+  padding-top: 10px;
+}
+.invoice .ticket-info {
+  display: flex;
+  margin-left: 30px;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.infHis {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.detailinfo {
+  display: none;
+}
+
+.history {
+  color: white;
+  cursor: pointer;
+  border-radius: 40px;
+  width: 20rem;
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+}
+.info {
+  background-color: grey;
+  cursor: pointer;
+  border-radius: 40px;
+  width: 20rem;
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+}
+.detail {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.invoice {
+  border: 1px solid rgb(239, 235, 235);
+  width: max-content;
+  padding: 1.5rem;
+  background-color: rgb(240, 237, 234);
+  border-radius: 15px;
+  box-shadow: 3px 5px #888888;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+}

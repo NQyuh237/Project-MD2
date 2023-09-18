@@ -1,0 +1,305 @@
+{
+  "movies": [
+    {
+      "id": 2,
+      "title": "ÁC QUỶ MA SƠ II ",
+      "director": "Alessandro Antonaci, Stefano Mandalà, Daniel Lascar",
+      "actors": "Taissa Farmiga, Jonas Bloquet, Storm Reid, Anna Popplewell, Bonnie Aarons,…",
+      "genre": "Bí ẩn, Kinh Dị",
+      "releaseDate": "08/09/2023",
+      "duration": "93 phút",
+      "language": "PHIM ĐƯỢC PHỔ BIẾN ĐẾN NGƯỜI XEM TỪ ĐỦ 18 TUỔI TRỞ LÊN (18+)",
+      "rating": "C18 (18+)",
+      "posterUrl": "https://www.cgv.vn/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/t/h/the_nun_ii.jpg",
+      "trailerUrl": "https://www.youtube.com/embed/CmBuZXqkyLM",
+      "description": "Sau cái chết của cha, Emma (Penelope Sangiorgi) vội bay từ New York về quê nhà ở Ý để lo hậu sự. Trong thời gian diễn ra tang lễ, Emma ở một mình trong căn nhà mà cha mẹ để lại. Lúc này, cô bị buộc phải đối mặt với một thực thể tà ác có khả năng kết nối thông qua một chiếc radio bị nguyền rủa"
+    },
+    {
+      "id": 3,
+      "title": "KHẮC TINH CỦA QUỶ",
+      "director": "Julius Avery",
+      "actors": " Russell Crowe, Franco Nero…",
+      "genre": "Kinh dị",
+      "releaseDate": "08/09/2023",
+      "duration": "104 phút",
+      "language": "Tiếng Anh - Phụ đề Tiếng Việt",
+      "rating": "C18 (18+)",
+      "posterUrl": "https://www.cgv.vn/media/catalog/product/cache/1/thumbnail/240x388/c88460ec71d04fa96e628a21494d2fd3/p/o/pope_sexorcist_poster_h_m_ng_c.jpg",
+      "trailerUrl": "https://www.youtube.com/embed/SXfnUAW9gwA",
+      "description": "Lấy cảm hứng từ những hồ sơ có thật của Cha Gabriele Amorth, Trưởng Trừ Tà của Vatican (Russell Crowe, đoạt giải Oscar®), bộ phim The Pope's Exorcist theo chân Amorth trong cuộc điều tra về vụ quỷ ám kinh hoàng của một cậu bé và dần khám phá ra những bí mật hàng thế kỷ mà Vatican đã cố gắng giấu kín"
+    },
+    {
+      "id": 4,
+      "title": "ANH EM MARIO",
+      "director": "Aaron Horvath, Michael Jelenic",
+      "actors": "Chris Pratt, Anya Taylor-Joy, Charlie Day, …",
+      "genre": "Hài, Hoạt Hình, Phiêu Lưu",
+      "releaseDate": "08/09/2023",
+      "duration": "104 phút",
+      "language": "Tiếng Anh - Phụ đề Tiếng Việt",
+      "rating": "MỌI ĐỘ TUỔI.",
+      "posterUrl": "https://www.cgv.vn/media/catalog/product/cache/1/thumbnail/240x388/c88460ec71d04fa96e628a21494d2fd3/s/u/super_mario_bros._payoff_poster.jpg",
+      "trailerUrl": "https://www.youtube.com/embed/QcinmCfoh8E",
+      "description": "Câu chuyện về cuộc phiêu lưu của anh em Super Mario đến vương quốc Nấm."
+    },
+    {
+      "id": 5,
+      "title": "MẶT NẠ QUỶ",
+      "director": "Lawrence Fowler",
+      "actors": "Michaela Longden, Rebecca Phillipson, Tom Millen, Victor Mellors",
+      "genre": "Kinh dị",
+      "releaseDate": "08/09/2023",
+      "duration": " 102 phút",
+      "language": "Tiếng Anh - Phụ đề Tiếng Việt",
+      "rating": "C18 (18+)",
+      "posterUrl": "https://www.cgv.vn/media/catalog/product/cache/1/thumbnail/240x388/c88460ec71d04fa96e628a21494d2fd3/m/a/main_poster_2__3.jpg",
+      "trailerUrl": "https://www.youtube.com/embed/UJuqhPPEjhM",
+      "description": "Bí ẩn về cái chết của em gái Evie 20 năm trước còn bỏ ngỏ, vào lúc 09:09 hằng đêm, hàng loạt cuộc chạm trán kinh hoàng xảy ra.Liệu Margot có biết được sự thật ai là kẻ giết em gái mình?"
+    },
+    {
+      "id": 6,
+      "title": "RENFIELD TAY SAI CỦA QUỶ",
+      "director": " Chris McKay",
+      "actors": " Nicolas Cage, Nicholas Hoult, Awkwafina",
+      "genre": "Hài, Kinh dị",
+      "releaseDate": "08/09/2023",
+      "duration": " 91 phút",
+      "language": "Tiếng Anh - Phụ đề Tiếng Việt",
+      "rating": "C18 - (18+)",
+      "posterUrl": "https://www.cgv.vn/media/catalog/product/cache/1/thumbnail/240x388/c88460ec71d04fa96e628a21494d2fd3/r/e/renfield_700x1000px.jpg",
+      "trailerUrl": "https://www.youtube.com/embed/CmBuZXqkyLM",
+      "description": "Trong câu chuyện quái vật hiện đại về người hầu trung thành của Dracula,Renfield (do Nicholas Hoult thủ vai), kẻ bề tôi đáng thương của ông chủ tự ái nhất lịch sử"
+    },
+    {
+      "id": 7,
+      "title": "CHUYỆN TÔI VÀ MA QUỶ THÀNH NGƯỜI MỘT NHÀ",
+      "director": "Cheng Wei-hao",
+      "actors": "Greg Hsu, Austin Lin, Gingle Wang",
+      "genre": "Bí ẩn, Hài, Hành Động",
+      "releaseDate": "14/04/2023",
+      "duration": " 130 phút",
+      "language": "Tiếng Trung Quốc - Phụ đề Tiếng Việt",
+      "rating": "C15 (15+)",
+      "posterUrl": "https://www.cgv.vn/media/catalog/product/cache/1/thumbnail/240x388/c88460ec71d04fa96e628a21494d2fd3/t/e/teaser_poster_1-marry-my-dead-body.jpg",
+      "trailerUrl": "https://www.youtube.com/embed/CmBuZXqkyLM",
+      "description": "Ming-Han là một cảnh sát nhiệt huyết. Một ngày nọ,  trong quá trình truy bắt tội phạm cùng người đồng nghiệp xinh đẹp Zi-Qing, Ming-Han vô tình nhặt được một phong bao màu đỏ, và một nhóm người bất ngờ nhảy ra gọi anh  là con rể. Họ yêu cầu anh ta kết hôn với đứa con đã chết của họ. Ming-Han không thể chấp nhận quyết định này. Tuy nhiên, anh ấy sau đó anh ta gặp phải vô số sự cố xui xẻo. Điều đáng sợ hơn nữa là anh ta bắt đầu nhìn thấy người chồng ma Mao-Mao của mình. Vì vậy, Ming-Han đã tìm đến thầy để tìm cách. "
+    }
+  ],
+  "databox": [
+    [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11",
+      "A12",
+      "A13"
+    ],
+    [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B8",
+      "B9",
+      "B10",
+      "B11",
+      "B12",
+      "B13"
+    ],
+    [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13"
+    ],
+    [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9"
+    ],
+    [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12"
+    ],
+    [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+    ],
+    [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12"
+    ],
+    [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6",
+      "H7",
+      "H8",
+      "H9",
+      "H10",
+      "H11",
+      "H12"
+    ],
+    [
+      "I1",
+      "I2",
+      "I3",
+      "I4",
+      "I5",
+      "I6",
+      "I7",
+      "I8",
+      "I9",
+      "I10"
+    ]
+  ],
+  "user": [
+    {
+      "name": "yuh",
+      "email": "huy@gmail.com",
+      "password": "12345678",
+      "address": "hanoi",
+      "dob": "2023-09-18",
+      "phone": "0919368198",
+      "gender": "nam",
+      "id": 1
+    },
+    {
+      "name": "gnart",
+      "email": "abc123@gmail.com",
+      "password": "abc123",
+      "address": "hanoi",
+      "dob": "2023-09-18",
+      "phone": "0374444744",
+      "gender": "nu",
+      "id": 2
+    }
+  ],
+  "bookedTickets": [
+    {
+      "movie": "ÂM VỰC CHẾT",
+      "date": "2023-06-15",
+      "theater": "CGV Đan Phượng",
+      "time": "15:00",
+      "seat": [
+        "H5"
+      ],
+      "email": "yuh@gmail.com",
+      "status": true,
+      "id": 6
+    },
+    {
+      "movie": "ÂM VỰC CHẾT",
+      "date": "2023-06-08",
+      "theater": "CGV Vincom Trần Duy Hưng",
+      "time": "15:00",
+      "seat": [
+        "G6",
+        "F6"
+      ],
+      "email": "yuh@gmail.com",
+      "status": false,
+      "id": 7
+    },
+    {
+      "movie": "ÂM VỰC CHẾT",
+      "date": "2023-06-08",
+      "theater": "CGV Vincom Trần Duy Hưng",
+      "time": "15:00",
+      "seat": [
+        "E6"
+      ],
+      "email": "yuh@gmail.com",
+      "status": false,
+      "id": 10
+    },
+    {
+      "movie": "KHẮC TINH CỦA QUỶ",
+      "date": "2023-06-23",
+      "theater": "CGV Đan Phượng",
+      "time": "17:30",
+      "seat": [
+        "G6"
+      ],
+      "email": "yuh@gmail.com",
+      "status": false,
+      "id": 11
+    },
+    {
+      "movie": "ANH EM MARIO",
+      "date": "2023-06-03",
+      "theater": "CGV Mỹ Đình",
+      "time": "10:00",
+      "seat": [
+        "A1"
+      ],
+      "email": "quanghuy2371998@gmail.com",
+      "status": true,
+      "id": 12
+    }
+  ],
+  "admin": [
+    {
+      "admin": "admin",
+      "password": "admin"
+    }
+  ]
+}

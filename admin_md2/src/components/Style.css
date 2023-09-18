@@ -1,0 +1,6 @@
+.Offcanvas {
+  background-color: rgba(66, 68, 67, 0.904) !important;
+}
+.Offcanvas a:hover {
+  font-size: larger;
+}
