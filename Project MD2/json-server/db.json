@@ -1,8 +1,8 @@
 {
   "movies": [
     {
-      "id": 2,
-      "title": "ÁC QUỶ MA SƠ II ",
+      "id": 1,
+      "title": "ÁC QUỶ MA SƠ II",
       "director": "Alessandro Antonaci, Stefano Mandalà, Daniel Lascar",
       "actors": "Taissa Farmiga, Jonas Bloquet, Storm Reid, Anna Popplewell, Bonnie Aarons,…",
       "genre": "Bí ẩn, Kinh Dị",
@@ -11,78 +11,78 @@
       "language": "PHIM ĐƯỢC PHỔ BIẾN ĐẾN NGƯỜI XEM TỪ ĐỦ 18 TUỔI TRỞ LÊN (18+)",
       "rating": "C18 (18+)",
       "posterUrl": "https://www.cgv.vn/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/t/h/the_nun_ii.jpg",
-      "trailerUrl": "https://www.youtube.com/embed/CmBuZXqkyLM",
+      "trailerUrl": "https://www.youtube.com/embed/1DnccpR2inU",
       "description": "Sau cái chết của cha, Emma (Penelope Sangiorgi) vội bay từ New York về quê nhà ở Ý để lo hậu sự. Trong thời gian diễn ra tang lễ, Emma ở một mình trong căn nhà mà cha mẹ để lại. Lúc này, cô bị buộc phải đối mặt với một thực thể tà ác có khả năng kết nối thông qua một chiếc radio bị nguyền rủa"
     },
     {
-      "id": 3,
-      "title": "KHẮC TINH CỦA QUỶ",
-      "director": "Julius Avery",
-      "actors": " Russell Crowe, Franco Nero…",
-      "genre": "Kinh dị",
-      "releaseDate": "08/09/2023",
-      "duration": "104 phút",
+      "id": 2,
+      "title": "LIVE - #pháttrựctiếp",
+      "director": "Khương Ngọc",
+      "actors": "Ngọc Phước, Quốc Khánh,...",
+      "genre": "Kinh Dị, Tâm Lý",
+      "releaseDate": "22/09/2023",
+      "duration": "91 phút",
       "language": "Tiếng Anh - Phụ đề Tiếng Việt",
       "rating": "C18 (18+)",
-      "posterUrl": "https://www.cgv.vn/media/catalog/product/cache/1/thumbnail/240x388/c88460ec71d04fa96e628a21494d2fd3/p/o/pope_sexorcist_poster_h_m_ng_c.jpg",
-      "trailerUrl": "https://www.youtube.com/embed/SXfnUAW9gwA",
-      "description": "Lấy cảm hứng từ những hồ sơ có thật của Cha Gabriele Amorth, Trưởng Trừ Tà của Vatican (Russell Crowe, đoạt giải Oscar®), bộ phim The Pope's Exorcist theo chân Amorth trong cuộc điều tra về vụ quỷ ám kinh hoàng của một cậu bé và dần khám phá ra những bí mật hàng thế kỷ mà Vatican đã cố gắng giấu kín"
+      "posterUrl": "https://www.cgv.vn/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/l/i/live_-_main_-_ngoc_phuoc.jpg",
+      "trailerUrl": "https://www.youtube.com/embed/cZEksCs2FzI",
+      "description": "Bộ phim Việt đầu tiên trực diện nói về vấn đề bạo lực mạng xã hội. Câu chuyện xoay quanh hai người trẻ đầy tham vọng, bất chấp tất cả để có thể trở nên nổi tiếng trên mạng. Họ dùng đủ cách thức lẫn chiêu trò để đạt được mục đích của mình, cho đến khi chính bản thân họ lại thành con mồi mới cho những kẻ trên mạng, những người sẵn sàng lao vào tấn công người khác chỉ vì “Không ưa con đó.”"
+    },
+    {
+      "id": 3,
+      "title": "ÁN MẠNG Ở VENICE",
+      "director": "Kenneth Branagh",
+      "actors": "Kelly Reilly, Michelle Yeoh, Kenneth Branagh",
+      "genre": "Kinh Dị, Tâm Lý, Tội phạm",
+      "releaseDate": "15/09/2023",
+      "duration": "103 phút",
+      "language": "Tiếng Anh - Phụ đề Tiếng Việt",
+      "rating": "T13 - PHIM ĐƯỢC PHỔ BIẾN ĐẾN NGƯỜI XEM TỪ ĐỦ 13 TUỔI TRỞ LÊN (13+)",
+      "posterUrl": "https://www.cgv.vn/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/r/s/rsz_1ahiv_-_new_poster.jpg",
+      "trailerUrl": "https://www.youtube.com/embed/q1Aah6OuEv8",
+      "description": "Dựa trên tiểu thuyết Hallowe'en Party của nhà văn Agatha Christie, hành trình phá án của thám tử Hercule Poirot tiếp tục được đưa lên màn ảnh rộng."
     },
     {
       "id": 4,
-      "title": "ANH EM MARIO",
-      "director": "Aaron Horvath, Michael Jelenic",
-      "actors": "Chris Pratt, Anya Taylor-Joy, Charlie Day, …",
-      "genre": "Hài, Hoạt Hình, Phiêu Lưu",
-      "releaseDate": "08/09/2023",
-      "duration": "104 phút",
-      "language": "Tiếng Anh - Phụ đề Tiếng Việt",
-      "rating": "MỌI ĐỘ TUỔI.",
-      "posterUrl": "https://www.cgv.vn/media/catalog/product/cache/1/thumbnail/240x388/c88460ec71d04fa96e628a21494d2fd3/s/u/super_mario_bros._payoff_poster.jpg",
-      "trailerUrl": "https://www.youtube.com/embed/QcinmCfoh8E",
-      "description": "Câu chuyện về cuộc phiêu lưu của anh em Super Mario đến vương quốc Nấm."
+      "title": "NHÂN DUYÊN TIỀN ĐÌNH",
+      "director": "Lee Han",
+      "actors": "Yoo Hae-jin, Kim Hee-seon, Cha In-pyo, Jin Seon-kyu, Han Seon-hwa, Lee Joon-hyuk, Yeom Hye-ran,...",
+      "genre": "Hài, Tình cảm",
+      "releaseDate": "15/09/2023",
+      "duration": "119 phút",
+      "language": "Tiếng Hàn - Phụ đề tiếng Việt, tiếng Anh",
+      "rating": "T13 - PHIM ĐƯỢC PHỔ BIẾN ĐẾN NGƯỜI XEM TỪ ĐỦ 13 TUỔI TRỞ LÊN (13+)",
+      "posterUrl": "https://www.cgv.vn/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/r/s/rsz_honeysweet_teaser-poster-social.jpg",
+      "trailerUrl": "https://www.youtube.com/embed/k6S4DE8P7mY",
+      "description": "Chuyện phim xoay quanh nhân vật Chi-ho (Yoo Hae-jin) - nhà nghiên cứu bim bim với khả năng nếm vị xuất chúng, nhưng lại ngờ nghệch với mọi thứ xung quanh. Chi-ho là một người cực kỳ hướng nội, thích ở một mình và sống như một cái máy được lập trình sẵn mà không hề mắc lỗi dù chỉ một giây. Trong lúc phải đi trả nợ thay cho người anh trai cờ bạc (Cha In-pyo), Chi-ho đã gặp gỡ “nhân viên đòi nợ” Il-young - người phụ nữ hướng ngoại, luôn suy nghĩ tích cực về cuộc sống dù đang ở trong hoàn cảnh khó khăn của một bà mẹ đơn thân. Khác biệt về tính cách lẫn ngoại hình khiến cả hai trở thành “trái dấu hút nhau”. Sự “trái dấu” này đã đẩy đưa cuộc tình của họ đến vô vàn tình huống “cười ra nước mắt” nhưng cũng không kém phần cảm xúc."
     },
     {
       "id": 5,
-      "title": "MẶT NẠ QUỶ",
-      "director": "Lawrence Fowler",
-      "actors": "Michaela Longden, Rebecca Phillipson, Tom Millen, Victor Mellors",
+      "title": "ĐƠN HÀNG TỪ SÁT NHÂN",
+      "director": "PARK Hee-kon",
+      "actors": "SHIN Hae-sun, KIM Sung-kyun",
       "genre": "Kinh dị",
-      "releaseDate": "08/09/2023",
-      "duration": " 102 phút",
-      "language": "Tiếng Anh - Phụ đề Tiếng Việt",
-      "rating": "C18 (18+)",
-      "posterUrl": "https://www.cgv.vn/media/catalog/product/cache/1/thumbnail/240x388/c88460ec71d04fa96e628a21494d2fd3/m/a/main_poster_2__3.jpg",
-      "trailerUrl": "https://www.youtube.com/embed/UJuqhPPEjhM",
-      "description": "Bí ẩn về cái chết của em gái Evie 20 năm trước còn bỏ ngỏ, vào lúc 09:09 hằng đêm, hàng loạt cuộc chạm trán kinh hoàng xảy ra.Liệu Margot có biết được sự thật ai là kẻ giết em gái mình?"
+      "releaseDate": "15/09/2023",
+      "duration": "101 phút",
+      "language": " Tiếng Hàn - Phụ đề tiếng Việt",
+      "rating": "T18 - PHIM ĐƯỢC PHỔ BIẾN ĐẾN NGƯỜI XEM TỪ ĐỦ 18 TUỔI TRỞ LÊN (18+)",
+      "posterUrl": "https://www.cgv.vn/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/7/0/700x1000-targer_1_.jpg",
+      "trailerUrl": "https://www.youtube.com/embed/Oo4Y-j37I70",
+      "description": "Như bao cô gái chốn công sở, Soo-hyun dù luôn quay cuồng với deadline nhưng vẫn không quên đam mê shopping online của mình. Sau khi mua nhầm một đơn hàng chất lượng kém, xứng đáng 1 sao, Soo-hyun không ngờ rằng đánh giá chân thật của mình đã làm một tên sát nhân máu lạnh nổi điên!"
     },
     {
       "id": 6,
-      "title": "RENFIELD TAY SAI CỦA QUỶ",
-      "director": " Chris McKay",
-      "actors": " Nicolas Cage, Nicholas Hoult, Awkwafina",
-      "genre": "Hài, Kinh dị",
-      "releaseDate": "08/09/2023",
-      "duration": " 91 phút",
+      "title": "TRỪNG PHẠT",
+      "director": "Nimrod Antal",
+      "actors": "Liam Neeson, Matthew Modine, Jack Champion,...",
+      "genre": "Hành Động, Tội phạm",
+      "releaseDate": "15/09/2023",
+      "duration": "91 phút",
       "language": "Tiếng Anh - Phụ đề Tiếng Việt",
-      "rating": "C18 - (18+)",
-      "posterUrl": "https://www.cgv.vn/media/catalog/product/cache/1/thumbnail/240x388/c88460ec71d04fa96e628a21494d2fd3/r/e/renfield_700x1000px.jpg",
-      "trailerUrl": "https://www.youtube.com/embed/CmBuZXqkyLM",
-      "description": "Trong câu chuyện quái vật hiện đại về người hầu trung thành của Dracula,Renfield (do Nicholas Hoult thủ vai), kẻ bề tôi đáng thương của ông chủ tự ái nhất lịch sử"
-    },
-    {
-      "id": 7,
-      "title": "CHUYỆN TÔI VÀ MA QUỶ THÀNH NGƯỜI MỘT NHÀ",
-      "director": "Cheng Wei-hao",
-      "actors": "Greg Hsu, Austin Lin, Gingle Wang",
-      "genre": "Bí ẩn, Hài, Hành Động",
-      "releaseDate": "14/04/2023",
-      "duration": " 130 phút",
-      "language": "Tiếng Trung Quốc - Phụ đề Tiếng Việt",
-      "rating": "C15 (15+)",
-      "posterUrl": "https://www.cgv.vn/media/catalog/product/cache/1/thumbnail/240x388/c88460ec71d04fa96e628a21494d2fd3/t/e/teaser_poster_1-marry-my-dead-body.jpg",
-      "trailerUrl": "https://www.youtube.com/embed/CmBuZXqkyLM",
-      "description": "Ming-Han là một cảnh sát nhiệt huyết. Một ngày nọ,  trong quá trình truy bắt tội phạm cùng người đồng nghiệp xinh đẹp Zi-Qing, Ming-Han vô tình nhặt được một phong bao màu đỏ, và một nhóm người bất ngờ nhảy ra gọi anh  là con rể. Họ yêu cầu anh ta kết hôn với đứa con đã chết của họ. Ming-Han không thể chấp nhận quyết định này. Tuy nhiên, anh ấy sau đó anh ta gặp phải vô số sự cố xui xẻo. Điều đáng sợ hơn nữa là anh ta bắt đầu nhìn thấy người chồng ma Mao-Mao của mình. Vì vậy, Ming-Han đã tìm đến thầy để tìm cách. "
+      "rating": "T16 - PHIM ĐƯỢC PHỔ BIẾN ĐẾN NGƯỜI XEM TỪ ĐỦ 16 TUỔI TRỞ LÊN (16+)",
+      "posterUrl": "https://www.cgv.vn/media/catalog/product/cache/1/image/c5f0a1eff4c394a251036189ccddaacd/_/7/_700x1000_1_.jpg",
+      "trailerUrl": "https://www.youtube.com/embed/Nxsgz09jKvg",
+      "description": "Matt Turner (Liam Neeson) là một doanh nhân người Mỹ thành đạt sống ở Berlin, đang phải cân bằng giữa sự nghiệp tài chính đang bùng nổ và trách nhiệm gia đình. Một buổi sáng đang lái xe đưa con đến trường, Matt nhận được một cuộc điện thoại từ một giọng nói bí ẩn: có một quả bom dưới ghế của anh ấy sẽ phát nổ trừ khi anh ấy hoàn thành một loạt nhiệm vụ cụ thể, và nhanh chóng. Bị mắc kẹt trong một cuộc rượt đuổi tốc độ cao khắp thành phố, Matt phải làm theo chỉ dẫn ngày càng nguy hiểm của “kẻ lạ mặt” trong cuộc chạy đua với thời gian để bảo vệ gia đình và tìm lời giải đáp cho những bí ẩn đang diễn ra. Bộ phim ly kỳ về chiếc đồng hồ tích tắc nhập vai này của các nhà sản xuất phim NON-STOP và THE COMMUTER thu hút khán giả tham gia vào một hành trình cứu chuộc và trả thù có chỉ số octan cao."
     }
   ],
   "databox": [
@@ -215,7 +215,7 @@
     {
       "name": "yuh",
       "email": "huy@gmail.com",
-      "password": "12345678",
+      "password": "Trang210898@",
       "address": "hanoi",
       "dob": "2023-09-18",
       "phone": "0919368198",
@@ -224,21 +224,31 @@
     },
     {
       "name": "gnart",
-      "email": "abc123@gmail.com",
-      "password": "abc123",
+      "email": "trang@gmail.com",
+      "password": "Trang210898@",
       "address": "hanoi",
       "dob": "2023-09-18",
       "phone": "0374444744",
       "gender": "nu",
       "id": 2
+    },
+    {
+      "name": "HUy",
+      "email": "abc@gmail.com",
+      "password": "Trang210898@",
+      "address": "Hà Nội",
+      "dob": "1997-07-23",
+      "phone": "0919368198",
+      "gender": "nam",
+      "id": 3
     }
   ],
   "bookedTickets": [
     {
-      "movie": "ÂM VỰC CHẾT",
-      "date": "2023-06-15",
-      "theater": "CGV Đan Phượng",
-      "time": "15:00",
+      "movie": "ÁC QUỶ MA SƠ II",
+      "date": "2023-09-21",
+      "theater": "CGV Huy Cận",
+      "time": "21:00",
       "seat": [
         "H5"
       ],
@@ -247,23 +257,23 @@
       "id": 6
     },
     {
-      "movie": "ÂM VỰC CHẾT",
-      "date": "2023-06-08",
-      "theater": "CGV Vincom Trần Duy Hưng",
-      "time": "15:00",
+      "movie": "ÁC QUỶ MA SƠ II",
+      "date": "2023-09-21",
+      "theater": "CGV Huy Cận",
+      "time": "21:00",
       "seat": [
         "G6",
         "F6"
       ],
       "email": "yuh@gmail.com",
-      "status": false,
+      "status": true,
       "id": 7
     },
     {
-      "movie": "ÂM VỰC CHẾT",
-      "date": "2023-06-08",
-      "theater": "CGV Vincom Trần Duy Hưng",
-      "time": "15:00",
+      "movie": "ÁC QUỶ MA SƠ II",
+      "date": "2023-09-21",
+      "theater": "CGV Huy Cận",
+      "time": "21:00",
       "seat": [
         "E6"
       ],
@@ -272,10 +282,10 @@
       "id": 10
     },
     {
-      "movie": "KHẮC TINH CỦA QUỶ",
-      "date": "2023-06-23",
+      "movie": "NHÂN DUYÊN TIỀN ĐÌNH",
+      "date": "2023-09-21",
       "theater": "CGV Đan Phượng",
-      "time": "17:30",
+      "time": "22:30",
       "seat": [
         "G6"
       ],
@@ -284,8 +294,8 @@
       "id": 11
     },
     {
-      "movie": "ANH EM MARIO",
-      "date": "2023-06-03",
+      "movie": "ÁN MẠNG Ở VENICE",
+      "date": "2023-09-22",
       "theater": "CGV Mỹ Đình",
       "time": "10:00",
       "seat": [
@@ -294,12 +304,24 @@
       "email": "quanghuy2371998@gmail.com",
       "status": true,
       "id": 12
+    },
+    {
+      "movie": "ÁC QUỶ MA SƠ II",
+      "date": "2023-09-22",
+      "theater": "CGV Xuân Diệu",
+      "time": "10:00",
+      "seat": [
+        "A1"
+      ],
+      "email": "abc@gmail.com",
+      "status": false,
+      "id": 13
     }
   ],
   "admin": [
     {
-      "admin": "admin",
-      "password": "admin"
+      "admin": "admin@gmail.com",
+      "password": "Trang210898@"
     }
   ]
 }

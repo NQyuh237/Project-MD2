@@ -151,7 +151,7 @@ a {
 .event-new {
   display: flex;
   list-style-type: none;
-  background: url();
+  /* background: url(); */
   background-repeat: no-repeat;
   width: 70%;
   height: auto;
@@ -440,9 +440,7 @@ h2 {
 .detail img {
   width: 100%;
 }
-/*responsive
-  
-  */
+
 @media screen and (max-width: 1180px) {
   .header-main {
     display: none;

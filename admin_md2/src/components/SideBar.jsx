@@ -18,7 +18,7 @@ function    SideBar() {
   return (
     <>
       <Button className="onSide" variant="success" onClick={handleShow}>
-        <i className="fa-solid fa-bars-staggered"></i>
+        <i className="fa-solid fa-bars-staggered">Menu</i>
       </Button>
 
       <Offcanvas className="Offcanvas" show={show} onHide={handleClose}>

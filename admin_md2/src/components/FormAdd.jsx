@@ -218,7 +218,7 @@ function FormAdd() {
               }}
               type="submit"
             >
-              <i className="fa-solid fa-upload"></i>
+              <i className="fa-solid fa-upload">+</i>
             </Button>
           </Row>
         </Form>

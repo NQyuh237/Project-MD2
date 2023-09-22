@@ -23,7 +23,7 @@ function Header() {
         <div className="page">
           <div className="header-container"></div>
           <div className="header-banner">
-            <img src="https://advserver.cgv.vn/www/images/4071dd3a3df0579d220dad28e9c08679.jpg" />
+            {/* <img src="https://advserver.cgv.vn/www/images/4071dd3a3df0579d220dad28e9c08679.jpg" /> */}
           </div>
           <div className="header-tuyendung">
             <div className="tuyendung">
@@ -47,7 +47,7 @@ function Header() {
                 style={{ color: "grey" }}
               >
                 <i className="fa-solid fa-circle-user"></i>
-                <div>ĐĂNG NHẬP/ĐĂNG KÝ</div>
+                <span>ĐĂNG NHẬP/ĐĂNG KÝ</span>
               </Link>
             ) : (
               <>
@@ -93,7 +93,7 @@ function Header() {
             <div>
               <Link to="/">
                 <img
-                  src="https://www.cgv.vn/skin/frontend/cgv/default/images/cgvlogo.png"
+                  src="https://www.cgv.vn/skin/frontend/cgv/default/images/cgvlogo-small.png"
                   alt=""
                 />
               </Link>
@@ -109,6 +109,7 @@ function Header() {
                 <p>Thành viên</p>
               </div>
               <div>CULTUREPLEX</div>
+              <div>TUYỂN DỤNG</div>
             </div>
             <a href="#" className="cine">
               <img

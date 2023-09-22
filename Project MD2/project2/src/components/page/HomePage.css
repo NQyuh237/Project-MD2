@@ -59,7 +59,7 @@ a {
   display: flex;
   width: 1200px;
   height: 100px;
-  justify-content: start;
+  /* justify-content: start; */
 }
 .content-top ul li {
   width: 137px;
@@ -101,13 +101,13 @@ a {
 }
 
 .member {
-  width: 100%;
+  width: 100% !important;
 }
-/* 
-  .member div {
-    width: 240px;
-    height: 210px;
-  } */
+
+.member div {
+  width: 240px;
+  height: 210px;
+}
 
 .offer {
   width: 100%;
