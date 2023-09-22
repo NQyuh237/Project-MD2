@@ -212,7 +212,7 @@ function FormAdd() {
             <Button
               style={{
                 width: "150px",
-                height: "50px",
+                height: "38px",
                 marginTop: "40px",
                 marginLeft: "40px",
               }}

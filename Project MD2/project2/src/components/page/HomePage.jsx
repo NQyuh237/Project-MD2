@@ -42,7 +42,7 @@ function HomePage() {
               alt="First slide"
             />
           </Carousel.Item>
-          <Carousel.Item interval={500}>
+          {/* <Carousel.Item interval={500}>
             <img
               className="d-block w-100"
               src="https://www.cgv.vn/media/banner/cache/1/b58515f018eb873dafa430b6f9ae0c1e/9/8/980x448_-sneak_show-min_2.jpg"
@@ -55,14 +55,14 @@ function HomePage() {
               src="https://www.cgv.vn/media/banner/cache/1/b58515f018eb873dafa430b6f9ae0c1e/h/o/horror_movie_run_980x448.jpg"
               alt="Third slide"
             />
-          </Carousel.Item>
+          </Carousel.Item> */}
         </div>
       </div>
       <>
         <div className="movie-selection" id="movie-selection">
           <h1>-MOVIE SELECTION-</h1>
           <div className="container-fluid movieselec">
-            <div items={5} className="owl-theme" loop nav margin={5}>
+            <div items={5} className="owl-theme" margin={5}>
               {movies.map((movie) => (
                 <div key={movie.id}>
                   <div className="item">
@@ -92,12 +92,12 @@ function HomePage() {
                 />
               </div>
 
-              <div className="col">
+              {/* <div className="col">
                 <img
                   src="https://www.cgv.vn/media/banner/cache/1/b58515f018eb873dafa430b6f9ae0c1e/9/8/980x448_1__49.jpg"
                   alt=""
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

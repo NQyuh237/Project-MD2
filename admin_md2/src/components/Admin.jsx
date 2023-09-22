@@ -258,7 +258,7 @@ function Admin() {
                       variant="outline-warning"
                       onClick={() => enterEditMode(movie.id)}
                     >
-                      <i className="fa-solid fa-pen-to-square"></i>
+                      <i className="fa-solid fa-pen-to-square">Sửa</i>
                     </Button>
                   </td>
                   <td>
@@ -266,7 +266,7 @@ function Admin() {
                       variant="outline-danger"
                       onClick={() => handleDelete(movie.id)}
                     >
-                      <i className="fa-solid fa-trash-can"></i>
+                      <i className="fa-solid fa-trash-can">Xóa</i>
                     </Button>
                   </td>
                 </>

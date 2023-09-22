@@ -1,14 +1,16 @@
 * {
   margin: 0;
-  padding: 5px;
+  padding: 3px;
   box-sizing: border-box;
   text-align: center;
 }
 .App {
-  height: 100vh;
-  background-image: url(https://www.tiendauroi.com/wp-content/uploads/2020/02/cgv.png);
+  width: 100%;
+  height: 100%;
+  background-image: url(https://cdn.pixabay.com/photo/2020/01/04/18/40/trees-4741364_1280.png);
   background-repeat: no-repeat;
   background-position: bottom;
+
 }
 .table {
   margin-top: 50px;
@@ -19,7 +21,6 @@
 .manegForm {
   border-radius: 15px;
   border: 1px solid rgb(163, 160, 160);
-  box-shadow: 3px 5px #888888;
   padding-top: 20px;
   padding-bottom: 20px;
 }

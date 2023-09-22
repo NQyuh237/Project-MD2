@@ -18,13 +18,13 @@ function    SideBar() {
   return (
     <>
       <Button className="onSide" variant="success" onClick={handleShow}>
-        <i className="fa-solid fa-bars-staggered">Menu</i>
+        <i className="fa-solid fa-bars">=</i>
       </Button>
 
       <Offcanvas className="Offcanvas" show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
           <Offcanvas.Title style={{ color: "white" }}>
-            XIN CHÀO ADMIN !!<i className="fa-solid fa-hands-clapping"></i>
+            Xin CHÀO   ADMIN !!!<i className="fa-solid fa-hands-clapping"></i>
           </Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>

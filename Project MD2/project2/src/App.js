@@ -10,7 +10,7 @@ import Booking from "./components/page/Booking";
 import History from "./components/page/History";
 import UserDetail from "./components/page/UserDetail";
 import NotFound from "./components/page/NotFound";
-// import Admin from "../../../admin_md2/src/components/Admin./node_modules/Admin";
+// import Admin from "./../../../admin_md2/src/components/Admin";
 
 function App() {
   return (
