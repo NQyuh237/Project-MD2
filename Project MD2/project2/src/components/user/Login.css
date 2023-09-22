@@ -94,16 +94,17 @@
 
 .log-btn {
   display: flex;
-  gap: 30px;
   margin: auto;
-  width: 30%;
-  height: 50px;
+  width: 300px;
+  height: 40px;
   color: gray;
   background-color: rgb(237, 85, 85);
   border-radius: 10px;
+  justify-content: center;
   padding-top: 10px;
-  padding-left: 30px;
+  padding-left: 10px;
   text-align: center;
+  gap: 30px;
 }
 .log-btn a {
   margin: auto;
@@ -111,32 +112,26 @@
   color: white;
 }
 .log-btn a:hover {
-  font-size: 17px;
+  font-size: larger;
 }
 #reg {
-  font-weight: 500;
+  font-size: 15px;
+  font-weight: 200;
 }
 #in {
   font-weight: 200;
 }
 .dkqc {
   margin: auto;
-  width: 70%;
-  display: flex;
-  gap: 30px;
+  width: 100% !important;
 }
 .form-signin .form {
   width: 1000px !important;
   background-color: grey !important;
 }
-/* register*/
 
 /*pseudo*/
 .brandlogo i:hover {
   cursor: pointer;
   font-size: 30px;
 }
-
-/*responsive
-    
-    */

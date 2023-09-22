@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Form from "react-bootstrap/Form";
 import "../user/Register.css";
-import Carousel from "react-bootstrap/Carousel";
 import axios from "axios";
 import { toast } from "react-toastify";
 function Register() {
@@ -120,10 +119,12 @@ function Register() {
               </Link>
             </span>
           </div>
+          <br />
           <div className="col-12">
             <label htmlFor="inputName" className="form-label">
-              Tên
+              Tên:
             </label>
+            <br />
             <Form.Control
               type="text"
               className="form-control"
@@ -132,10 +133,12 @@ function Register() {
               onChange={(e) => handleChangeName(e)}
             />
           </div>
+          <br />
           <div className="col-12">
             <label htmlFor="inputEmail4" className="form-label">
-              Email
+              Email:
             </label>
+            <br />
             <Form.Control
               required
               type="email"
@@ -145,10 +148,12 @@ function Register() {
               onChange={(e) => handleChangeEmail(e)}
             />
           </div>
+          <br />
           <div className="col-12">
             <label htmlFor="inputPassword4" className="form-label">
-              Mật Khẩu
+              Mật Khẩu:
             </label>
+            <br />
             <Form.Control
               type="password"
               className="form-control"
@@ -162,10 +167,12 @@ function Register() {
               Vui lòng điền tên mật khẩu!
             </Form.Control.Feedback>
           </div>
+          <br />
           <div className="col-12">
             <label htmlFor="inputAddress" className="form-label">
-              Địa chỉ
+              Địa chỉ:
             </label>
+            <br />
             <Form.Control
               type="text"
               className="form-control"
@@ -174,10 +181,12 @@ function Register() {
               onChange={(e) => handleChangeAddress(e)}
             />
           </div>
+          <br />
           <div className="col-12">
             <label htmlFor="inputDob" className="form-label">
-              Ngày tháng năm sinh
+              Ngày tháng năm sinh:
             </label>
+            <br />
             <Form.Control
               type="date"
               className="form-control"
@@ -186,10 +195,12 @@ function Register() {
               onChange={(e) => handleChangeDob(e)}
             />
           </div>
+          <br />
           <div className="col-md-6">
             <label htmlFor="inputPhone" className="form-label">
-              Số điện thoại
+              Số điện thoại:
             </label>
+            <br />
             <Form.Control
               type="tel"
               className="form-control"
@@ -201,10 +212,12 @@ function Register() {
               onChange={(e) => handleChangePhone(e)}
             />
           </div>
+          <br />
           <div className="col-md-4">
             <label htmlFor="inputGender" className="form-label">
-              Giới tính
+              Giới tính:
             </label>
+            <br />
             <select
               id="inputGender"
               className="form-select"
@@ -216,18 +229,20 @@ function Register() {
               <option value="nu">Nữ</option>
             </select>
           </div>
+          <br />
           <div className="col-12">
             <div className="form-check">
+              <label className="form-check-label" htmlFor="gridCheck">
+                Tôi đồng ý với điều khoản sử dụng:
+              </label>
               <input
                 className="form-check-input"
                 type="checkbox"
                 id="gridCheck"
                 onChange={() => setAgreement(!agreement)}
               />
-              <label className="form-check-label" htmlFor="gridCheck">
-                Tôi đồng ý với điều khoản sử dụng
-              </label>
             </div>
+            <br />
           </div>
           <div className="col-12">
             <button type="submit" className="btn btn-primary btn-danger">
@@ -235,30 +250,18 @@ function Register() {
             </button>
           </div>
         </Form>
-        <Carousel fade interval={null}>
-          <Carousel.Item className="carousel-item">
-            <img
-              className="d-block w-100"
-              src="https://www.cgv.vn/media/wysiwyg/2020/3.jpg"
-              alt="First slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item className="carousel-item">
-            <img
-              className="d-block w-100"
-              src="https://www.cgv.vn/media/wysiwyg/2020/1.jpg"
-              alt="Second slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item className="carousel-item">
-            <img
-              className="d-block w-100
-            "
-              src="https://www.cgv.vn/media/wysiwyg/2020/2.jpg"
-              alt="Third slide"
-            />
-          </Carousel.Item>
-        </Carousel>
+        <a href="#" className="bright">
+          <img
+            src="https://www.cgv.vn/media/wysiwyg/2023/092023/CGV-Q2_120x600.jpg"
+            alt=""
+          />
+        </a>
+        <a href="#" className="bleft">
+          <img
+            src="https://www.cgv.vn/media/wysiwyg/2023/092023/CGV-Q2_120x600.jpg"
+            alt=""
+          />
+        </a>
       </div>
     </div>
   );

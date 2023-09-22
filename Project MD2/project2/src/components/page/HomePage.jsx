@@ -7,7 +7,7 @@ import Spinner from "react-bootstrap/Spinner";
 function HomePage() {
   const [movies, setMovies] = useState([]);
   const [loading, setLoading] = useState(true);
-  console.log(loading);
+  // console.log(loading);
   useEffect(() => {
     // Gọi API để lấy danh sách phim
     axios

@@ -95,15 +95,15 @@
   display: flex;
   margin: auto;
   width: 300px;
-  height: 50px;
+  height: 40px;
   color: gray;
   background-color: rgb(237, 85, 85);
   border-radius: 10px;
   justify-content: center;
   padding-top: 10px;
-  padding-left: 50px;
+  padding-left: 10px;
   text-align: center;
-  gap: 30px;
+  gap: 20px;
 }
 .log-btn a {
   margin: auto;
@@ -115,14 +115,14 @@
 }
 #in {
   font-size: 17px;
-  font-weight: 500;
+  font-weight: 200;
 }
 #reg {
   font-weight: 200;
 }
 .dkqc {
   margin: auto;
-  width: 70%;
+  width: 30%;
   display: flex;
   gap: 30px;
 }

@@ -248,9 +248,9 @@ function Admin() {
                       height="200"
                       src={movie.trailerUrl}
                       title="YouTube video player"
-                      frameborder="0"
+                      frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen
+                      allowFullScreen
                     ></iframe>
                   </td>
                   <td>

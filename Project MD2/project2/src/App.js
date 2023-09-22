@@ -10,6 +10,7 @@ import Booking from "./components/page/Booking";
 import History from "./components/page/History";
 import UserDetail from "./components/page/UserDetail";
 import NotFound from "./components/page/NotFound";
+// import Admin from "../../../admin_md2/src/components/Admin./node_modules/Admin";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
+          {/* <Route path="/admin" element={<Admin />}></Route> */}
           <Route path="/detail/:id" element={<MovieDetail />}></Route>
           <Route path="/login" element={<Login />}></Route>
           <Route path="/register" element={<Register />}></Route>

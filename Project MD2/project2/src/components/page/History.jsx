@@ -123,25 +123,6 @@ function History() {
               <button className="btn btn-primary btn-update">Thay đổi</button>
             </div>
           </div>
-          {/* <ul className="pagination">
-            {Array.from({
-              length: Math.ceil(tickets.length / ticketsPerPage),
-            }).map((_, index) => (
-              <li
-                key={index}
-                className={`page-item ${
-                  currentPage === index + 1 ? "active" : ""
-                }`}
-              >
-                <button
-                  className="page-link"
-                  onClick={() => paginate(index + 1)}
-                >
-                  {index + 1}
-                </button>
-              </li>
-            ))}
-          </ul> */}
           <ul className="pagination">
             {Array.from(
               Array(Math.ceil(tickets.length / ticketsPerPage)),

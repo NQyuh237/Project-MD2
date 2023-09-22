@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import Carousel from "react-bootstrap/Carousel";
 import Form from "react-bootstrap/Form";
 import axios from "axios";
 import { toast } from "react-toastify";
@@ -26,7 +25,11 @@ const Login = () => {
 
       if (response.data.length > 0) {
         localStorage.setItem("userLogin", JSON.stringify(response.data[0]));
-        navigate("/");
+        if (response.data[0].role == 1) {
+          navigate("/admin");
+        } else {
+          navigate("/");
+        }
         toast.success("Đăng nhập thành công!");
       } else {
         // Sai email hoặc password
@@ -38,86 +41,75 @@ const Login = () => {
   };
 
   return (
-    <div>
-      <div className="dkqc ">
-        <div className="form-signin w-100 m-auto ">
-          <Form className="row g-3 login" id="login" onSubmit={handleLogin}>
-            <div className="log-btn ">
-              <span>
-                {" "}
-                <Link to="/register" id="in">
-                  Đăng ký
-                </Link>{" "}
-              </span>
-              <span>
-                <Link to="/login" id="reg">
-                  Đăng Nhập
-                </Link>
-              </span>
-            </div>
+    <div className="dkqc ">
+      <div className="form-signin w-100 m-auto ">
+        <Form className="row g-3 login" id="login" onSubmit={handleLogin}>
+          <div className="log-btn ">
+            <span>
+              {" "}
+              <Link to="/register" id="in">
+                Đăng ký
+              </Link>{" "}
+            </span>
+            <span>
+              <Link to="/login" id="reg">
+                Đăng Nhập
+              </Link>
+            </span>
+          </div>
+          <br />
+          <div className="form-floating">
+            <label htmlFor="floatingInput">Email:</label>
             <br />
-            <div className="form-floating">
-              <input
-                type="email"
-                className="form-control mail"
-                id="floatingInput"
-                placeholder="name@example.com"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-              />
-              <label htmlFor="floatingInput">Email </label>
-            </div>
-            <div className="form-floating">
-              <input
-                type="password"
-                className="form-control pass"
-                id="floatingPassword"
-                placeholder="Password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-              />
-              <label htmlFor="floatingPassword">Mật khẩu</label>
-            </div>
-            <div className="checkbox mb-3">
-              <label>
-                <input type="checkbox" defaultValue="remember-me" /> Lưu mật
-                khẩu
-              </label>
-            </div>
-            <button
-              className="w-100 btn btn-lg btn-primary btn-danger"
-              type="submit"
-            >
-              Đăng Nhập
-            </button>
-          </Form>
-        </div>
-        <Carousel interval={null}>
-          <Carousel.Item
-            className="carousel-item"
-            style={{ margin: "auto !important" }}
+            <input
+              type="email"
+              className="form-control mail"
+              id="floatingInput"
+              placeholder="name@example.com"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+          </div>
+          <br />
+          <div className="form-floating">
+            <label htmlFor="floatingPassword">Mật khẩu:</label>
+            <br />
+            <input
+              type="password"
+              className="form-control pass"
+              id="floatingPassword"
+              placeholder="Password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
+          </div>
+          <br />
+          <div className="checkbox mb-3">
+            <label>
+              Lưu mật khẩu:
+              <input type="checkbox" defaultValue="remember-me" />
+            </label>
+          </div>
+          <br />
+          <button
+            className="w-100 btn btn-lg btn-primary btn-danger"
+            type="submit"
           >
-            <img
-              className="d-block w-100"
-              src="https://www.cgv.vn/media/wysiwyg/2020/3.jpg"
-              alt="First slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item className="carousel-item">
-            <img
-              className="d-block w-100"
-              src="https://www.cgv.vn/media/wysiwyg/2020/1.jpg"
-              alt="Second slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item className="carousel-item">
-            <img
-              className="d-block w-100"
-              src="https://www.cgv.vn/media/wysiwyg/2020/2.jpg"
-              alt="Third slide"
-            />
-          </Carousel.Item>
-        </Carousel>
+            Đăng Nhập
+          </button>
+        </Form>
+        <a href="#" className="bright">
+          <img
+            src="https://www.cgv.vn/media/wysiwyg/2023/092023/CGV-Q2_120x600.jpg"
+            alt=""
+          />
+        </a>
+        <a href="#" className="bleft">
+          <img
+            src="https://www.cgv.vn/media/wysiwyg/2023/092023/CGV-Q2_120x600.jpg"
+            alt=""
+          />
+        </a>
       </div>
       {errorMessage && <p>{errorMessage}</p>}
     </div>
