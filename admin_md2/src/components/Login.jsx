@@ -212,13 +212,13 @@ function FormAdd() {
             <Button
               style={{
                 width: "150px",
-                height: "50px",
+                height: "35px",
                 marginTop: "40px",
                 marginLeft: "40px",
               }}
               type="submit"
             >
-              <i className="fa-solid fa-upload"></i>
+              <i className="fa-solid fa-upload">+</i>
             </Button>
           </Row>
         </Form>

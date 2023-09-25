@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import "./HomePage.css";
 import Spinner from "react-bootstrap/Spinner";
+import { Table } from 'react-bootstrap/Table';
 function HomePage() {
   const [movies, setMovies] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -58,11 +59,11 @@ function HomePage() {
           </Carousel.Item> */}
         </div>
       </div>
-      <>
+      <div>
         <div className="movie-selection" id="movie-selection">
           <h1>-MOVIE SELECTION-</h1>
           <div className="container-fluid movieselec">
-            <div items={5} className="owl-theme" margin={5}>
+            <div items={5} className="Table-light" margin={5}>
               {movies.map((movie) => (
                 <div key={movie.id}>
                   <div className="item">
@@ -91,13 +92,6 @@ function HomePage() {
                   alt=""
                 />
               </div>
-
-              {/* <div className="col">
-                <img
-                  src="https://www.cgv.vn/media/banner/cache/1/b58515f018eb873dafa430b6f9ae0c1e/9/8/980x448_1__49.jpg"
-                  alt=""
-                />
-              </div> */}
             </div>
           </div>
         </div>
@@ -113,7 +107,7 @@ function HomePage() {
             alt=""
           />
         </a>
-      </>
+      </div>
     </div>
   );
 }

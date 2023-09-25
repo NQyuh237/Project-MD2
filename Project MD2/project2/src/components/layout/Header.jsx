@@ -100,16 +100,45 @@ function Header() {
             </div>
             <div className="headtext">
               <div>
-                <p>Phim</p>
+                <a
+                  style={{ color: "black" }}
+                  href="https://www.cgv.vn/default/movies/now-showing.html"
+                >
+                  Phim
+                </a>
               </div>
               <div>
-                <p>Rạp CGV</p>
+                <a
+                  style={{ color: "black" }}
+                  href="https://www.cgv.vn/default/cinox/site/"
+                >
+                  Rạp CGV
+                </a>
               </div>
               <div>
-                <p>Thành viên</p>
+                <a
+                  style={{ color: "black" }}
+                  href="https://www.cgv.vn/default/cgv-membership"
+                >
+                  Thành viên
+                </a>
               </div>
-              <div>CULTUREPLEX</div>
-              <div>TUYỂN DỤNG</div>
+              <div>
+                <a
+                  style={{ color: "black" }}
+                  href="https://www.cgv.vn/default/gift"
+                >
+                  CULTUREPLEX
+                </a>
+              </div>
+              <div>
+                <a
+                  style={{ color: "black" }}
+                  href="https://www.cgv.vn/default/careers"
+                >
+                  TUYỂN DỤNG
+                </a>
+              </div>
             </div>
             <a href="#" className="cine">
               <img
@@ -123,19 +152,23 @@ function Header() {
           <div className="content-top">
             <ul>
               <li>
-                <a href="">cgv theater</a>
+                <a href="https://www.cgv.vn/default/cinox/site/">cgv theater</a>
               </li>
               <li>
-                <a href="">now sh</a>
+                <a href="https://www.cgv.vn/default/movies/now-showing.html/">
+                  now sh
+                </a>
               </li>
               <li>
-                <a href="">special</a>
+                <a href="https://www.cgv.vn/default/theaters/special/gold-class">
+                  special
+                </a>
               </li>
               <li>
-                <a href="">rental</a>
+                <a href="https://www.cgv.vn/default/cinemas/sale/">rental</a>
               </li>
               <li>
-                <a href="">contact</a>
+                <a href="https://www.cgv.vn/default/contacts/">contact</a>
               </li>
             </ul>
           </div>

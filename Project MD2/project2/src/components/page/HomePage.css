@@ -157,6 +157,14 @@ a {
   border-bottom: 3px solid black;
 }
 
+.Table-light {
+  margin: 40px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
 .brand {
   margin-top: 20px;
   width: 70%;
