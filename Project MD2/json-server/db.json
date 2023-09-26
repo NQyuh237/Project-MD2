@@ -224,9 +224,9 @@
   ],
   "user": [
     {
-      "name": "Huy",
-      "email": "abc@gmail.com",
-      "password": "Trang210898@",
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "H123456@",
       "address": "Hà Nội",
       "dob": "1997-07-23",
       "phone": "0919368198",
@@ -235,9 +235,9 @@
       "role": 0
     },
     {
-      "name": "admin",
-      "email": "admin@gmail.com",
-      "password": "H123456@",
+      "name": "Huy",
+      "email": "abc@gmail.com",
+      "password": "Trang210898@",
       "address": "Hà Nội",
       "dob": "1997-07-23",
       "phone": "0919368198",
@@ -245,28 +245,9 @@
       "id": 2,
       "role": 1
     }
+    
   ],
   "bookedTickets": [
-    {
-      "movie": "NHÂN DUYÊN TIỀN ĐÌNH",
-      "date": "2023-09-21",
-      "theater": "CGV Đan Phượng",
-      "time": "22:30",
-      "seat": ["G6"],
-      "email": "yuh@gmail.com",
-      "status": false,
-      "id": 11
-    },
-    {
-      "movie": "ÁN MẠNG Ở VENICE",
-      "date": "2023-09-22",
-      "theater": "CGV Mỹ Đình",
-      "time": "10:00",
-      "seat": ["A1"],
-      "email": "quanghuy2371998@gmail.com",
-      "status": true,
-      "id": 12
-    },
     {
       "movie": "ÁC QUỶ MA SƠ II",
       "date": "2023-09-22",
@@ -274,18 +255,48 @@
       "time": "10:00",
       "seat": ["A1"],
       "email": "abc@gmail.com",
-      "status": false,
-      "id": 13
+      "status": true,
+      "id": 3
     },
     {
-      "movie": "NHÂN DUYÊN TIỀN ĐÌNH",
-      "date": "2023-09-23",
+      "movie": "ÁC QUỶ MA SƠ II",
+      "date": "2023-09-22",
       "theater": "CGV Xuân Diệu",
       "time": "10:00",
-      "seat": ["D1", "I1"],
+      "seat": ["A2"],
       "email": "abc@gmail.com",
       "status": true,
-      "id": 14
+      "id": 4
+    },
+    {
+      "movie": "ÁC QUỶ MA SƠ II",
+      "date": "2023-09-22",
+      "theater": "CGV Xuân Diệu",
+      "time": "10:00",
+      "seat": ["A3"],
+      "email": "abc@gmail.com",
+      "status": true,
+      "id": 5
+    },
+    {
+      "movie": "ÁC QUỶ MA SƠ II",
+      "date": "2023-09-22",
+      "theater": "CGV Xuân Diệu",
+      "time": "10:00",
+      "seat": ["A4"],
+      "email": "abc@gmail.com",
+      "status": true,
+      "id": 6
+    },
+    {
+      "movie": "ÁC QUỶ MA SƠ II",
+      "date": "2023-09-22",
+      "theater": "CGV Xuân Diệu",
+      "time": "10:00",
+      "seat": ["A5"],
+      "email": "abc@gmail.com",
+      "status": true,
+      "id": 7
     }
   ]
 }

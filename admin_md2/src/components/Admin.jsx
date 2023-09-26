@@ -2,60 +2,70 @@ import React, { useState, useEffect } from "react";
 import Table from "react-bootstrap/Table";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import Modal from "react-bootstrap/Form";
 import axios from "axios";
 import Pagination from "./Pagination";
 import SideBar from "./SideBar";
-import FormAdd from "./FormAdd";
+
 function Admin() {
   const [movies, setMovies] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [moviesPerPage] = useState(5);
   const [editMode, setEditMode] = useState({});
 
-  // Thêm state để lưu phim mới thêm vào
-
   useEffect(() => {
+    // Sử dụng useEffect để gọi API lấy danh sách phim từ máy chủ
     axios
       .get(`http://localhost:8000/movies`)
       .then((response) => setMovies(response.data));
-  }, []); // Khi newMovie thay đổi, gọi API để lấy danh sách phim mới
+  }, []); // useEffect chỉ chạy một lần sau khi component được render
 
+  // Hàm xử lý khi ấn nút "Lưu" sau khi chỉnh sửa phim
   const handleEdit = async (id, editedMovie) => {
     try {
+      // Gọi API để cập nhật phim dựa trên ID và dữ liệu chỉnh sửa
       const response = await axios.patch(
         `http://localhost:8000/movies/${id}`,
         editedMovie
       );
-      console.log(response.data);
+
+      // Cập nhật danh sách phim trong state với phim đã được cập nhật
       setMovies((prevMovies) => {
         const updatedMovies = prevMovies.map((movie) =>
           movie.id === id ? response.data : movie
         );
         return updatedMovies;
       });
+
+      // Kết thúc chế độ chỉnh sửa (đóng form chỉnh sửa)
       setEditMode({});
     } catch (error) {
       console.log(error);
     }
   };
 
+  // Hàm xử lý khi thay đổi giá trị input trong form chỉnh sửa phim
   const handleInputChange = (event, id) => {
     const { name, value } = event.target;
+
+    // Cập nhật thông tin chỉnh sửa của phim trong state editMode
     setEditMode((prevEditMode) => ({
       ...prevEditMode,
       [id]: { ...prevEditMode[id], [name]: value },
     }));
   };
 
+  // Hàm xử lý khi ấn nút "Sửa" để bắt đầu chỉnh sửa phim
   const enterEditMode = (id) => {
+    // Lấy thông tin phim hiện tại dựa trên ID và đưa vào chế độ chỉnh sửa
     setEditMode((prevEditMode) => ({
       ...prevEditMode,
       [id]: { ...movies.find((movie) => movie.id === id) },
     }));
   };
 
+  // Hàm xử lý khi ấn nút "Hủy" để thoát khỏi chế độ chỉnh sửa
   const exitEditMode = (id) => {
+    // Xóa thông tin phim đang chỉnh sửa khỏi chế độ chỉnh sửa
     setEditMode((prevEditMode) => {
       const updatedEditMode = { ...prevEditMode };
       delete updatedEditMode[id];
@@ -63,28 +73,30 @@ function Admin() {
     });
   };
 
+  // Hàm xử lý khi ấn nút "Xóa" để xóa phim
   const handleDelete = async (id) => {
     try {
+      // Gọi API để xóa phim dựa trên ID
       await axios.delete(`http://localhost:8000/movies/${id}`);
+
+      // Cập nhật danh sách phim trong state bằng cách loại bỏ phim đã xóa
       setMovies((prevMovies) => prevMovies.filter((movie) => movie.id !== id));
     } catch (error) {
       console.log(error);
     }
   };
 
-  // Lấy movies hiện tại dựa trên trang hiện tại
+  // Xác định vị trí phim cuối và phim đầu trên từng trang
   const indexOfLastMovie = currentPage * moviesPerPage;
   const indexOfFirstMovie = indexOfLastMovie - moviesPerPage;
   const currentMovies = movies.slice(indexOfFirstMovie, indexOfLastMovie);
 
-  // Chuyển đổi trang
+  // Hàm xử lý khi chuyển trang
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
-  const [show, setShow] = useState(false);
 
   return (
     <div>
       <SideBar />
-
       <br />
       <br />
       <h1>QUẢN LÝ PHIM</h1>
@@ -216,7 +228,7 @@ function Admin() {
                       variant="outline-success"
                       onClick={() => handleEdit(movie.id, editMode[movie.id])}
                     >
-                      <i className="fa-solid fa-floppy-disk"></i>
+                      Lưu
                     </Button>
                   </td>
                   <td>
@@ -224,7 +236,7 @@ function Admin() {
                       variant="outline-secondary"
                       onClick={() => exitEditMode(movie.id)}
                     >
-                      <i className="fa-solid fa-rectangle-xmark"></i>
+                      Hủy
                     </Button>
                   </td>
                 </>
@@ -255,18 +267,18 @@ function Admin() {
                   </td>
                   <td>
                     <Button
-                      variant="outline-warning"
+                      variant="warning"
                       onClick={() => enterEditMode(movie.id)}
                     >
-                      <i className="fa-solid fa-pen-to-square">Sửa</i>
+                      Sửa
                     </Button>
                   </td>
                   <td>
                     <Button
-                      variant="outline-danger"
+                      variant="danger"
                       onClick={() => handleDelete(movie.id)}
                     >
-                      <i className="fa-solid fa-trash-can">Xóa</i>
+                      Xóa
                     </Button>
                   </td>
                 </>
