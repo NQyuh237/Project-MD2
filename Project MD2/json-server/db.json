@@ -215,12 +215,85 @@
       "C12",
       "C13"
     ],
-    ["D1", "D2", "D3", "D4", "D5", "D6", "D7", "D8", "D9"],
-    ["E1", "E2", "E3", "E4", "E5", "E6", "E7", "E8", "E9", "E10", "E11", "E12"],
-    ["F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F10", "F11", "F12"],
-    ["G1", "G2", "G3", "G4", "G5", "G6", "G7", "G8", "G9", "G10", "G11", "G12"],
-    ["H1", "H2", "H3", "H4", "H5", "H6", "H7", "H8", "H9", "H10", "H11", "H12"],
-    ["I1", "I2", "I3", "I4", "I5", "I6", "I7", "I8", "I9", "I10"]
+    [
+      "D1",
+      "D2",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9"
+    ],
+    [
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11",
+      "E12"
+    ],
+    [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6",
+      "F7",
+      "F8",
+      "F9",
+      "F10",
+      "F11",
+      "F12"
+    ],
+    [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10",
+      "G11",
+      "G12"
+    ],
+    [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6",
+      "H7",
+      "H8",
+      "H9",
+      "H10",
+      "H11",
+      "H12"
+    ],
+    [
+      "I1",
+      "I2",
+      "I3",
+      "I4",
+      "I5",
+      "I6",
+      "I7",
+      "I8",
+      "I9",
+      "I10"
+    ]
   ],
   "user": [
     {
@@ -244,8 +317,27 @@
       "gender": "nam",
       "id": 2,
       "role": 1
+    },
+    {
+      "name": "Trang",
+      "email": "abcd@gmail.com",
+      "password": "Trang210898@",
+      "address": "Hà Nội",
+      "dob": "2023-09-13",
+      "phone": "0919368198",
+      "gender": "nu",
+      "id": 3
+    },
+    {
+      "name": "Huy",
+      "email": "abcde@gmail.com",
+      "password": "Trang210898@",
+      "address": "Lào",
+      "dob": "2023-09-19",
+      "phone": "0919368198",
+      "gender": "nu",
+      "id": 4
     }
-    
   ],
   "bookedTickets": [
     {
@@ -253,7 +345,9 @@
       "date": "2023-09-22",
       "theater": "CGV Xuân Diệu",
       "time": "10:00",
-      "seat": ["A1"],
+      "seat": [
+        "A1"
+      ],
       "email": "abc@gmail.com",
       "status": true,
       "id": 3
@@ -263,7 +357,9 @@
       "date": "2023-09-22",
       "theater": "CGV Xuân Diệu",
       "time": "10:00",
-      "seat": ["A2"],
+      "seat": [
+        "A2"
+      ],
       "email": "abc@gmail.com",
       "status": true,
       "id": 4
@@ -273,7 +369,9 @@
       "date": "2023-09-22",
       "theater": "CGV Xuân Diệu",
       "time": "10:00",
-      "seat": ["A3"],
+      "seat": [
+        "A3"
+      ],
       "email": "abc@gmail.com",
       "status": true,
       "id": 5
@@ -283,7 +381,9 @@
       "date": "2023-09-22",
       "theater": "CGV Xuân Diệu",
       "time": "10:00",
-      "seat": ["A4"],
+      "seat": [
+        "A4"
+      ],
       "email": "abc@gmail.com",
       "status": true,
       "id": 6
@@ -293,10 +393,54 @@
       "date": "2023-09-22",
       "theater": "CGV Xuân Diệu",
       "time": "10:00",
-      "seat": ["A5"],
+      "seat": [
+        "A5"
+      ],
       "email": "abc@gmail.com",
       "status": true,
       "id": 7
+    },
+    {
+      "movie": "ÁC QUỶ MA SƠ II",
+      "date": "2023-09-28",
+      "theater": "CGV Vincom Royal City",
+      "time": "15:00",
+      "seat": [
+        "F7",
+        "F6",
+        "F5"
+      ],
+      "email": "abcde@gmail.com",
+      "status": true,
+      "id": 8
+    },
+    {
+      "movie": "ÁC QUỶ MA SƠ II",
+      "date": "2023-09-28",
+      "theater": "CGV Vincom Royal City",
+      "time": "15:00",
+      "seat": [
+        "F5",
+        "F6",
+        "F7"
+      ],
+      "email": "abcde@gmail.com",
+      "status": false,
+      "id": 9
+    },
+    {
+      "movie": "LIVE - #pháttrựctiếp",
+      "date": "2023-08-25",
+      "theater": "CGV Xuân Diệu",
+      "time": "12:30",
+      "seat": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "email": "abcde@gmail.com",
+      "status": false,
+      "id": 10
     }
   ]
 }

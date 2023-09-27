@@ -4,6 +4,7 @@ import "./History.css";
 import axios from "axios";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+
 function UserDetail() {
   const userLogin = JSON.parse(localStorage.getItem("userLogin"));
   const [isEditMode, setIsEditMode] = useState(false);
@@ -12,17 +13,22 @@ function UserDetail() {
   const handleEditClick = () => {
     setIsEditMode(true);
   };
+
   const handleCancel = () => {
     setIsEditMode(false);
   };
-  const handleSaveClick = (id) => {
-    axios.patch(`http://localhost:8000/user/${id}`, editedUser);
-    // Gọi API hoặc xử lý lưu thông tin người dùng ở đây
-    // Sau khi lưu thành công, cập nhật lại thông tin người dùng trong localStorage
-    localStorage.setItem("userLogin", JSON.stringify(editedUser));
 
-    setIsEditMode(false);
-    window.location.reload();
+  const handleSaveClick = (id) => {
+    axios
+      .patch(`http://localhost:8000/user/${id}`, editedUser)
+      .then(() => {
+        localStorage.setItem("userLogin", JSON.stringify(editedUser));
+        setIsEditMode(false);
+        window.location.reload();
+      })
+      .catch((error) => {
+        console.error("Lỗi khi lưu thông tin người dùng:", error);
+      });
   };
 
   const handleInputChange = (e) => {
@@ -83,13 +89,12 @@ function UserDetail() {
           <div className="detailinfo" style={{ display: "block" }}>
             <h4>CHI TIẾT TÀI KHOẢN</h4>
             <hr />
-            <h5>Liên hệ </h5>
+            <h5>Liên hệ</h5>
             <div className="detail">
               <div>
                 <b>Tên: </b>
                 {displayValue("name")}
               </div>
-
               <div>
                 <b>Email: </b>
                 {isEditMode ? (
@@ -98,15 +103,12 @@ function UserDetail() {
                   <span>{userLogin.email}</span>
                 )}
               </div>
-
               <div className="phone">
                 <b>Số điện thoại:</b> {displayValue("phone")}
               </div>
-
               <div className="address">
                 <b>Địa chỉ:</b> {displayValue("address")}
               </div>
-
               <div className="button-container">{displayButtons}</div>
             </div>
           </div>

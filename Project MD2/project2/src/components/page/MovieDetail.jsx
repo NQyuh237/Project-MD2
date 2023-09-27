@@ -1,37 +1,38 @@
 import React, { useEffect, useState } from "react";
 import { Outlet, useNavigate, useParams } from "react-router-dom";
-import "../page/HomePage.css";
 import axios from "axios";
 import { toast } from "react-toastify";
-const MovieDetail = () => {
-  const { id } = useParams("id");
-  const [movie, setMovie] = useState({});
+import "../page/HomePage.css";
 
+const MovieDetail = () => {
+  const { id } = useParams();
+  const [movie, setMovie] = useState({});
   const [loading, setLoading] = useState(true);
   const navigate = useNavigate();
   const userLogin = JSON.parse(localStorage.getItem("userLogin"));
+
   useEffect(() => {
     // Gọi API để lấy thông tin phim
-    console.log(id);
     axios
       .get(`http://localhost:8000/movies/${id}`)
       .then((response) => {
         setMovie(response.data);
         setLoading(false);
-        console.log(response.data);
       })
       .catch((error) => {
         console.error("Lỗi load phim:", error);
         setLoading(false);
       });
-
-    // Lấy thông tin người dùng đăng nhập từ localStorage
   }, [id]);
 
-  const bookTicket = () =>
-    userLogin == null
-      ? (toast.warning("Ban phải đăng nhập để mua vé"), navigate("/login"))
-      : navigate(`/booking/${movie.id}`);
+  const bookTicket = () => {
+    if (userLogin === null) {
+      toast.warning("Bạn phải đăng nhập để mua vé");
+      navigate("/login");
+    } else {
+      navigate(`/booking/${movie.id}`);
+    }
+  };
 
   if (loading) {
     return <div>Loading...</div>;
@@ -68,7 +69,6 @@ const MovieDetail = () => {
           <div>
             <b>Rated:</b> {movie.rating}
           </div>
-
           <div>
             <b>Chi tiết:</b> {movie.description}
           </div>
@@ -77,18 +77,18 @@ const MovieDetail = () => {
           </div>
           <button
             key={movie.id}
+            className="btn btn-primary"
             onClick={bookTicket}
-            style={{
-              color: "red",
-              fontWeight: "600",
-              background: "none",
-              border: "none",
-            }}
+            // style={{
+            //   color: "red",
+            //   fontWeight: "600",
+            //   background: "none",
+            //   border: "none",
+            // }}
           >
             Mua Vé
           </button>
         </div>
-        {/* Các phần còn lại của component */}
       </div>
     </div>
   );

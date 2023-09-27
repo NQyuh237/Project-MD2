@@ -43,20 +43,6 @@ function HomePage() {
               alt="First slide"
             />
           </Carousel.Item>
-          {/* <Carousel.Item interval={500}>
-            <img
-              className="d-block w-100"
-              src="https://www.cgv.vn/media/banner/cache/1/b58515f018eb873dafa430b6f9ae0c1e/9/8/980x448_-sneak_show-min_2.jpg"
-              alt="Second slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="https://www.cgv.vn/media/banner/cache/1/b58515f018eb873dafa430b6f9ae0c1e/h/o/horror_movie_run_980x448.jpg"
-              alt="Third slide"
-            />
-          </Carousel.Item> */}
         </div>
       </div>
       <div>

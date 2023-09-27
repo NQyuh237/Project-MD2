@@ -20,7 +20,7 @@ function History() {
       .catch((error) => {
         console.error("Không tải được vé", error);
       });
-  }, []);
+  }, [userLoginEmail]);
 
   // Logic for pagination
   const indexOfLastTicket = currentPage * ticketsPerPage;
@@ -28,12 +28,14 @@ function History() {
   const currentTickets = tickets.slice(indexOfFirstTicket, indexOfLastTicket);
 
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
   const formatCurrency = (amount) => {
     return amount.toLocaleString("vi-VN", {
       style: "currency",
       currency: "VND",
     });
   };
+
   return (
     <div>
       <div className="infHis">
@@ -62,7 +64,6 @@ function History() {
                 <p className="label">
                   Phim: <b>{ticket.movie}</b>
                 </p>
-                <p className="value" id="movie-name" />
               </div>
               <div className="movie-info">
                 <p className="label">
@@ -95,34 +96,9 @@ function History() {
                   )}
                 </p>
               </div>
-              <div className="total" id="total-price" />
               <hr />
             </div>
           ))}
-          <div className="detailinfo">
-            <h4>CHI TIẾT TÀI KHOẢN</h4>
-            <hr />
-            <h5>Liên hệ </h5>
-            <div className="detail">
-              <div className="name">
-                <b>Tên</b>{" "}
-              </div>
-              <div>${userLogin.name}</div>
-              <div>
-                <b>Email</b>{" "}
-              </div>
-              <div className="mail">${userLogin.email}</div>
-              <div className="phone">
-                <b>Số điện thoại</b>{" "}
-              </div>
-              <div>${userLogin.phone}</div>
-              <div className="address">
-                <b>Địa chỉ</b>{" "}
-              </div>
-              <div>${userLogin.address}</div>
-              <button className="btn btn-primary btn-update">Thay đổi</button>
-            </div>
-          </div>
           <ul className="pagination">
             {Array.from(
               Array(Math.ceil(tickets.length / ticketsPerPage)),

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState, useEffect } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import "./Booking.css";
@@ -17,7 +17,7 @@ const ModalBooking = ({ selectedSeats, setSelectedSeats }) => {
         const data = await response.json();
         setBoxData(data);
       } catch (error) {
-        console.log(error);
+        console.error(error);
       }
     };
 
@@ -84,7 +84,7 @@ const ModalBooking = ({ selectedSeats, setSelectedSeats }) => {
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
-          <Button variant="primary" onClick={handleConfirmClick}>
+          <Button variant="primary"  onClick={handleConfirmClick}>
             Save Changes
           </Button>
         </Modal.Footer>
